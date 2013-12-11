@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">KelanDoc</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="login">LOGIN</string>
+    <string name="no_acc">No Account Yet?</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="spec">Specialization</string>
+    <string name="hospital">Hospital Branch</string>
+    <string name="next">Next &gt;</string>
+    <string name="search">Search</string>
+    <string name="welcomedoc">Welcome Doctor!</string>
+    <string name="welcomepat">Welcome Patient!</string>
+    <string name="appointments">Appointments</string>
+    <string name="reenter">Re-enter Password</string>
+    <string name="submit">Submit</string>
+    <string name="timeslot">Timeslot</string>
+    <string name="rua">Are you a</string>
+    <string name="ora">or a</string>
+    <string name="patient">Patient</string>
+    <string name="doctor">Doctor</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_timeslot_seletion">TimeslotSeletionActivity</string>
+    <string name="title_activity_edit">MainActivity</string>
+    <string name="title_activity_doctor_edit">MainActivity</string>
+    <string name="title_activity_patient_appointments">PatientAppointments</string>
+    <string name="title_activity_patient_reservation">PatientReservation</string>
+    <string name="title_activity_doctor_appointment">DoctorAppointmentActivity</string>
+    <string name="accept">Accept</string>
+    <string name="logout">Log Out</string>
+    <string name="editprof">Edit Profile</string>
+    <string name="welcomep">Welcome Patient!</string>
+    <string name="welcomed">Welcome Doctor!</string>
+
+</resources>

@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="20dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="20dp"
+    tools:context=".PatientReservationActivity"
+    android:background="#FFFFFF" >
+
+    <Button
+        android:id="@+id/resSubmit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="18dp"
+        android:text="@string/accept" />
+
+    <TextView
+        android:id="@+id/resDName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:textColor="#000000"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/resDHosp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/resDName"
+        android:layout_marginTop="18dp"
+        android:text=""
+        android:textColor="#BCBCBC"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/resDSpec"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/resDHosp"
+        android:text=""
+        android:textColor="#BCBCBC"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/resDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/resDSpec"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="18dp"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:hint="Date"
+        android:inputType="date" />
+
+    <ListView
+        android:id="@+id/resList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/resSubmit"
+        android:layout_below="@+id/resDate" >
+
+    </ListView>
+
+</RelativeLayout>

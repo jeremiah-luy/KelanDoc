@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mobicom.saandoc"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.kelandoc.ui.LoginActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.kelandoc.ui.LogInActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.LOGIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.kelandoc.ui.DocRegisterActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.DOCREG" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.kelandoc.ui.DocRegister2Activity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.DOCREG2" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.kelandoc.ui.DoctorMainpageActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.DOCMAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.kelandoc.ui.PatientMainpageActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.PATMAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.kelandoc.ui.PatientSearchActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.PATSEARCH" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.kelandoc.ui.PatOrDocActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.PATORDOC" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.kelandoc.ui.PatRegisterActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.PATREG" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.kelandoc.ui.PatRegister2Activity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.PATREG2" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.kelandoc.ui.RegisterActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.REGISTER" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.kelandoc.ui.TimeslotSelectionActivity"
+            android:label="@string/title_activity_timeslot_seletion"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.kelandoc.ui.EditActivity"
+            android:label="@string/title_activity_edit"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.kelandoc.ui.DoctorEditActivity"
+            android:label="@string/title_activity_doctor_edit"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.kelandoc.ui.PatientAppointmentActivity"
+            android:label="@string/title_activity_patient_appointments"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.kelandoc.ui.PatientReservationActivity"
+            android:label="@string/title_activity_patient_reservation"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.kelandoc.ui.DoctorAppointmentActivity"
+            android:label="@string/title_activity_doctor_appointment"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+    </application>
+
+</manifest>

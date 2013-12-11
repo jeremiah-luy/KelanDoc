@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF" >
+
+    <TextView
+        android:id="@+id/appTimeAndDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#000000"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/appDoc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#BCBCBC"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/appSpec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#BCBCBC"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/appHosp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#BCBCBC"
+        android:text="" />
+
+</LinearLayout>
